@@ -1,5 +1,5 @@
-﻿![](http://oo8jzybo8.bkt.clouddn.com/hello-github.jpg)
-# Git-tips
+![](http://oo8jzybo8.bkt.clouddn.com/hello-github.jpg)
+
 ## GitHub介绍
 GitHub 是为开发者提供 Git 仓库的托管服务。这是一个让开发者与朋友、同事、同学及陌生人共享代码的完美场所。总结一下，GitHub 最大的特征是“面向人”
 
