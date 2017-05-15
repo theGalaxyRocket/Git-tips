@@ -27,6 +27,7 @@ git add -u
 #是上面两个功能的合集（git add --all的缩写）
 git add -A
 ```
+
 ### 本地仓库
 ```sh
 git commit -m "描述"
@@ -36,6 +37,7 @@ git commit -m "描述"
 ```sh
 git push
 ```
+
 ### 从远程仓库拉取
 ```sh
 git pull
