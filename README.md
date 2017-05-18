@@ -1,5 +1,5 @@
 ﻿![](http://oo8jzybo8.bkt.clouddn.com/hello-github.jpg)
-# Git-tips
+
 ## GitHub介绍
 GitHub 是为开发者提供 Git 仓库的托管服务。这是一个让开发者与朋友、同事、同学及陌生人共享代码的完美场所。总结一下，GitHub 最大的特征是“面向人”
 
@@ -27,6 +27,7 @@ git add -u
 #是上面两个功能的合集（git add --all的缩写）
 git add -A
 ```
+
 ### 本地仓库
 ```sh
 git commit -m "描述"
@@ -36,7 +37,34 @@ git commit -m "描述"
 ```sh
 git push
 ```
+
 ### 从远程仓库拉取
 ```sh
 git pull
+```
+
+### 显示文件树形结构
+```sh
+tree /f		#指定tree使用字符而不是图形字符显示链接子目录的行
+tree /a		#显示每个目录中的文件名
+```
+
+### 显示修改的文件
+```sh
+git log --neme-only
+```
+
+### 撤销commit
+先git log查看log信息
+```sh
+git log
+```
+在使用reset撤销
+```sh
+git reset --hard commitID
+```
+
+### 查看修改的内容
+```sh
+git diff
 ```
