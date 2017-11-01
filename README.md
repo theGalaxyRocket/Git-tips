@@ -54,7 +54,7 @@ $ tree /a		#显示每个目录中的文件名
 
 ### 显示修改的文件
 ```sh
-$ git log --neme-only
+$ git log --name-only
 ```
 
 ### 撤销commit
